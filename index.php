@@ -15,19 +15,19 @@
     <div class="Container">
       <div class="row">
         <div class="col-6 coffee-list d-flex flex-column justify-content-around">
-          <div class="coffee-item">
+          <div class="coffee-item"onclick="makeCoffee ('Американо', 50)">
            <img src="img/americano.png" alt="Americano">
            <span>Americano-50p</span>
           </div>
-          <div class="coffee-item">
+          <div class="coffee-item" onclick="makeCoffee ('Капучино', 73)">
            <img src="img/cappuccino.png" alt="Cappuccino">
            <span>Cappuccino-73p</span>
           </div>
-          <div class="coffee-item">
+          <div class="coffee-item" onclick="makeCoffee ('Латте', 150)">
            <img src="img/latte.jpg" alt="latte">
            <span>Latte-150p</span>
           </div>
-          <div class="coffee-item">
+          <div class="coffee-item" onclick="makeCoffee ('Эспрессо', 122)">
            <img src="img/espresso.png" alt="Espresso">
            <span>Espresso-122p</span>
           </div>
@@ -67,7 +67,6 @@
     </div>
 
     <!-- Optional JavaScript -->
-    <script src="lesson.js"></script>
     <script src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

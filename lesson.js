@@ -175,7 +175,7 @@ submit
 // let cupColor = document.querySelector(".cup");
 // cupColor.onclick = function () {
 //   let labelCup = document.querySelector(".display");
-//   labelCup.style.backgroundColor = red;
+//   labelCup.style.backgroundColor = "red";
 // };
 
 

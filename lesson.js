@@ -178,8 +178,12 @@ submit
 //   labelCup.style.backgroundColor = "red";
 // };
 
-
-
+let coffeeButtons = document.querySelectorAll(".coffee-item");
+for (let i = 0; i < coffeeButtons.length; i++); {
+  coffeeButtons[i].onclick = function() {
+  makeCoffee("Американо", 50, this); 
+}
+}
 
 
 

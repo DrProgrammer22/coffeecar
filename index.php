@@ -15,19 +15,19 @@
     <div class="Container">
       <div class="row">
         <div class="col-6 coffee-list d-flex flex-column justify-content-around">
-          <div class="coffee-item"onclick="makeCoffee ('Американо', 50)">
+          <div class="coffee-item"onclick="makeCoffee ('Американо', 50, this)">
            <img src="img/americano.png" alt="Americano">
            <span>Americano-50p</span>
           </div>
-          <div class="coffee-item" onclick="makeCoffee ('Капучино', 73)">
+          <div class="coffee-item" onclick="makeCoffee ('Капучино', 73, this)">
            <img src="img/cappuccino.png" alt="Cappuccino">
            <span>Cappuccino-73p</span>
           </div>
-          <div class="coffee-item" onclick="makeCoffee ('Латте', 150)">
+          <div class="coffee-item" onclick="makeCoffee ('Латте', 150, this)">
            <img src="img/latte.jpg" alt="latte">
            <span>Latte-150p</span>
           </div>
-          <div class="coffee-item" onclick="makeCoffee ('Эспрессо', 122)">
+          <div class="coffee-item" onclick="makeCoffee ('Эспрессо', 122, this)">
            <img src="img/espresso.png" alt="Espresso">
            <span>Espresso-122p</span>
           </div>
@@ -38,9 +38,7 @@
               <div class="display">
                <p class="display-text">Выберите Кофе</p>
                <div class="progress">
-                 <div class="progress">
-                   <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                 </div>
+                   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 0% transition: none;"></div>
                 </div>
               </div>
                <div class="cup-container">
@@ -65,8 +63,13 @@
         </div>
       </div>
     </div>
-
+<div class= "money">
+  <img src="img/50rub.jpg" alt="" data-cost="50">
+  <img src="img/100rub.jpg" alt="" data-cost="100">
+  <img src="img/500rub.jpg" alt=""data-cost="500">
+</div>
     <!-- Optional JavaScript -->
+    <!-- <script src="lesson.js"></script> -->
     <script src="script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

@@ -50,6 +50,8 @@ font-family: 'Lobster', cursive
 }
 .cup {
   width: 100%;
+  display: none;
+  opacity: 0;
 }
 .atm {
   width: 100%;
